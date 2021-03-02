@@ -284,16 +284,11 @@ function magic()
 
 	function step1()
 {
-	myStopFunction();
-	document.getElementById('canvas1_img5').style.visibility = 'hidden';
-	document.getElementById('canvas1_img7').style.visibility = 'visible';
-	document.getElementById('string').style.webkitAnimationPlayState='running'; 	
+	myStopFunction();	
 	document.getElementById('string_2').style.webkitAnimationPlayState='running'; 
 	document.getElementById('box').style.webkitAnimationPlayState='running';
-	document.getElementById('box_3').style.webkitAnimationPlayState='running';
-	document.getElementById('box_4').style.webkitAnimationPlayState='running';
-
-
+	document.getElementById('canvas1_img6').style.left='615px';
+	document.getElementById('canvas1_img6').style.top='256px';
 
  	// document.getElementById('nextButton').style.visibility="visible";
 }
